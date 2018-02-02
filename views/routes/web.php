@@ -11,9 +11,6 @@
 |
 */
 
-
-Route::get('/saudacao', function () {
-    // Devolve uma página chamada welcome, localizada em resources/views
-    // localizada em resources/views/welcome.blade.php
-    return view('saudacao');
+Route::get('/', function () {
+    return view('welcome');
 });
